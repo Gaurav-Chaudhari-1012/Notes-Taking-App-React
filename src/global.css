@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: #5585b5;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* gap: 60%; */
+}
+
+/* css for form */
+
+.mainFormBlock{
+    background-color: #5585b5;
+    width: 40%;
+    height: 550px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.form-content{
+    margin: 20px;
+}
+
+.form-content label{
+    display: block;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.form-content input,textarea{
+    border: none;
+    border: 1px solid rgb(63, 60, 60);
+    width: 90%;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 14px;
+}
+
+.form-content select{
+    margin: 14px;
+}
+
+.form-content .btn{
+    margin-left: 14px;
+    padding: 12px;
+}
+
+/* Display notes css */
+
+.displaySection{
+    width: 60%;
+}
+.selectDisplayBlock{
+    height: 50px;
+    background-color: #5585b5;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+    color: whitesmoke;
+}
+
+.selectDisplayBlock label{
+    display: inline;
+    font-size: 15px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.selectDisplayBlock span{
+    font-size: 15px;
+    padding: 8px;
+}
+
+.displayBlock{
+    width: 90%;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.displayContent{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   /* border: 1px solid #5585b5; */
+}
+
+.output{
+    width: 200px;
+    height: 250px;
+    border: 1px solid cadetblue;
+    background-color: #5585b5;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.outputVal{
+    padding: 10px;
+    text-transform: capitalize;
+}
